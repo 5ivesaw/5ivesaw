@@ -24,7 +24,7 @@ when i'm not here, i'm probably playing valorant or wiring redstone in minecraft
 
 ### stats & activity
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=5ivesaw&show_icons=true&hide_border=true&bg_color=0d1117&title_color=C41E3A&icon_color=C41E3A&text_color=8b949e&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=5ivesaw&show_icons=true&hide_border=true&bg_color=0d1117&title_color=C41E3A&icon_color=C41E3A&text_color=8b949e" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=5ivesaw&layout=compact&hide_border=true&bg_color=0d1117&title_color=C41E3A&text_color=8b949e&langs_count=4" width="48%" />
 </p>
 <p align="center">
