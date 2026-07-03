@@ -10,7 +10,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1200&color=C41E3A&center=true&vCenter=true&repeat=true&width=480&height=32&lines=fivesaw;dev+%7C+ostania;write+code.+break+it.+fix+it.;probably+in+valorant+rn" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1200&color=C41E3A&center=true&vCenter=true&repeat=true&width=480&height=32&lines=fivesaw;dev+%7C+ostania;write+code.+break+it.+fix+it.;probably+in+minecraft+rn.;why+the+hell+are+you+even+reading+dis" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
@@ -31,15 +31,15 @@
 
 ```text
 > whoami
-just a dev figuring things out.
-writing code, breaking it, occasionally fixing it.
-offline? valorant or wiring redstone in minecraft.
+just a chainsaw figuring things out.
+writing code, breaking it, occasionally fixing it. and brekaing it.
+minecraft is just goated.
 ```
 
 ```text
-◆ currently grinding python & c++
+◆ currently grinding python & c++ 
 ◇ building small games & scripts
-◆ goal: stop breaking prod someday
+◆ goal: stop breaking stuff someday
 ◇ dm me on discord: fivesaw
 ```
 
