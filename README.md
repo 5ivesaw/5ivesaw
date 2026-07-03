@@ -32,7 +32,8 @@
 ```text
 > whoami
 just a chainsaw figuring things out.
-writing code, breaking it, occasionally fixing it. and brekaing it.
+writing code, breaking it, occasionally fixing it. 
+and brekaing it.
 minecraft is just goated.
 ```
 
