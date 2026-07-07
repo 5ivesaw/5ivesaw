@@ -16,7 +16,8 @@
 <br/><br/>
 
 <a href="https://5ivesaw.github.io/my-room/">
-  <img src="https://img.shields.io/badge/PLAY-SNAKE-C41E3A?style=for-the-badge&logo=retroarch&logoColor=white&labelColor=0d1117" alt="YOU SNAKE! Come to my room!"/>
+  <img src="https://img.shields.io/badge/OPEN-ROOM-C41E3A?style=for-the-badge&logo=homeassistant&logoColor=white&labelColor=0d1117" alt="come to my room"/>
+</a>
 </a>
 <img src="https://img.shields.io/badge/discord-fivesaw-C41E3A?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="Discord"/>
 <img src="https://komarev.com/ghpvc/?username=5ivesaw&style=for-the-badge&color=C41E3A&label=VISITS" alt="Profile visits"/>
