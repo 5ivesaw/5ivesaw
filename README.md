@@ -15,8 +15,8 @@
 
 <br/><br/>
 
-<a href="https://5ivesaw.github.io/5ivesaw/">
-  <img src="https://img.shields.io/badge/PLAY-SNAKE-C41E3A?style=for-the-badge&logo=retroarch&logoColor=white&labelColor=0d1117" alt="Play Snake"/>
+<a href="https://5ivesaw.github.io/my-room/">
+  <img src="https://img.shields.io/badge/PLAY-SNAKE-C41E3A?style=for-the-badge&logo=retroarch&logoColor=white&labelColor=0d1117" alt="YOU SNAKE! Come to my room!"/>
 </a>
 <img src="https://img.shields.io/badge/discord-fivesaw-C41E3A?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="Discord"/>
 <img src="https://komarev.com/ghpvc/?username=5ivesaw&style=for-the-badge&color=C41E3A&label=VISITS" alt="Profile visits"/>
