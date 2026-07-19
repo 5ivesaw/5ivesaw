@@ -1,8 +1,15 @@
 name: Generate contribution snake
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/snake.yml"
+
   schedule:
     - cron: "0 0 * * *"
+
   workflow_dispatch:
 
 jobs:
@@ -19,7 +26,7 @@ jobs:
         with:
           github_user_name: 5ivesaw
           outputs: |
-            dist/fivesaw-snake.svg?color_snake=#c2504a&color_dots=#170f0f,#3a2626,#6b302d,#a43f3a,#f06a61
+            dist/fivesaw-snake.svg?color_snake=#f3ece7&color_dots=#170f0f,#332020,#66302d,#a9433e,#f06a61
 
       - name: Publish snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
