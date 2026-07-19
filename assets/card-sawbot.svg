@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 280" role="img" aria-labelledby="title desc">
+  <title id="title">SAWBOT V1</title>
+  <desc id="desc">An inspectable hybrid Minecraft agent with deterministic bodies and safe takeover.</desc>
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".84" numOctaves="2" seed="8"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .045"/></feComponentTransfer>
+    </filter>
+    <clipPath id="clip"><rect width="580" height="280" rx="8"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="580" height="280" fill="#0C0D0F"/>
+    <rect x="18" y="18" width="544" height="244" fill="none" stroke="#2A2D33"/>
+    <line x1="414" y1="18" x2="414" y2="262" stroke="#2A2D33"/>
+    <line x1="18" y1="225" x2="562" y2="225" stroke="#2A2D33"/>
+
+    <g transform="translate(0,0)">
+        <g fill="none" stroke="#F0EDE6" stroke-width="1.2" opacity=".85">
+          <path d="M44 190L104 144L168 164L226 92L304 122L378 64"/>
+          <path d="M44 210H380 M44 48V218" opacity=".28"/>
+          <circle cx="104" cy="144" r="7"/><circle cx="168" cy="164" r="7"/>
+          <circle cx="226" cy="92" r="7"/><circle cx="304" cy="122" r="7"/>
+          <circle cx="378" cy="64" r="7"/>
+          <path d="M211 92H241 M226 77V107" stroke="#FF3045" stroke-width="2"/>
+        </g>
+        </g>
+
+    <rect x="414" y="18" width="148" height="52" fill="#FF3045"/>
+    <text x="488" y="55" text-anchor="middle" fill="#FFFFFF"
+          font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900">02</text>
+
+    <text x="438" y="112" fill="#F0EDE6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11" letter-spacing="1.5">FEATURED BUILD</text>
+    <text x="438" y="153" fill="#F0EDE6" font-family="Arial, Helvetica, sans-serif"
+          font-size="25" font-weight="900">SAWBOT V1</text>
+    <text x="438" y="183" fill="#A6A39C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="9.5" letter-spacing=".8">JAVA / FORGE / TELEMETRY</text>
+
+    <text x="38" y="250" fill="#F0EDE6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11.2">An inspectable hybrid Minecraft agent with deterministic bodies and safe takeover.</text>
+
+    <rect width="580" height="280" fill="none" filter="url(#grain)" pointer-events="none"/>
+  </g>
+</svg>

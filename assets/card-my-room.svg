@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 280" role="img" aria-labelledby="title desc">
+  <title id="title">MY ROOM</title>
+  <desc id="desc">A playable first-person world with a working PC, piano and game hub.</desc>
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".84" numOctaves="2" seed="8"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .045"/></feComponentTransfer>
+    </filter>
+    <clipPath id="clip"><rect width="580" height="280" rx="8"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="580" height="280" fill="#0C0D0F"/>
+    <rect x="18" y="18" width="544" height="244" fill="none" stroke="#2A2D33"/>
+    <line x1="414" y1="18" x2="414" y2="262" stroke="#2A2D33"/>
+    <line x1="18" y1="225" x2="562" y2="225" stroke="#2A2D33"/>
+
+    <g transform="translate(0,0)">
+        <g fill="none" stroke="#F0EDE6" stroke-width="1.2" opacity=".82">
+          <path d="M42 54H310L382 105V218H42Z"/>
+          <path d="M42 54L122 112H382 M310 54L242 112V218 M122 112V218"/>
+          <rect x="160" y="132" width="92" height="60"/>
+          <path d="M160 132L180 118H270L252 132 M206 132V192"/>
+        </g>
+        <circle cx="333" cy="72" r="5" fill="#FF3045"/>
+        </g>
+
+    <rect x="414" y="18" width="148" height="52" fill="#FF3045"/>
+    <text x="488" y="55" text-anchor="middle" fill="#FFFFFF"
+          font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900">01</text>
+
+    <text x="438" y="112" fill="#F0EDE6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11" letter-spacing="1.5">FEATURED BUILD</text>
+    <text x="438" y="153" fill="#F0EDE6" font-family="Arial, Helvetica, sans-serif"
+          font-size="25" font-weight="900">MY ROOM</text>
+    <text x="438" y="183" fill="#A6A39C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="9.5" letter-spacing=".8">THREE.JS / STATIC WEB</text>
+
+    <text x="38" y="250" fill="#F0EDE6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11.2">A playable first-person world with a working PC, piano and game hub.</text>
+
+    <rect width="580" height="280" fill="none" filter="url(#grain)" pointer-events="none"/>
+  </g>
+</svg>

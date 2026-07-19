@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+<title id="title">FiveSaw working system</title>
+<desc id="desc">A technical strip listing browser worlds, game intelligence, tools, and deployment methods.</desc>
+<rect width="1200" height="150" rx="8" fill="#111318"/>
+<g stroke="#30333A" stroke-width="1">
+  <line x1="300" y1="0" x2="300" y2="150"/><line x1="600" y1="0" x2="600" y2="150"/><line x1="900" y1="0" x2="900" y2="150"/>
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <g transform="translate(28,30)">
+    <text fill="#FF3045" font-size="11" font-weight="700" letter-spacing="1.8">01 / WORLDS</text>
+    <text y="39" fill="#F0EDE6" font-size="20" font-weight="700">Three.js</text>
+    <text y="68" fill="#A6A39C" font-size="12">interactive browser spaces</text>
+  </g>
+  <g transform="translate(328,30)">
+    <text fill="#FF3045" font-size="11" font-weight="700" letter-spacing="1.8">02 / INTELLIGENCE</text>
+    <text y="39" fill="#F0EDE6" font-size="20" font-weight="700">Java + C</text>
+    <text y="68" fill="#A6A39C" font-size="12">agents, game AI, telemetry</text>
+  </g>
+  <g transform="translate(628,30)">
+    <text fill="#FF3045" font-size="11" font-weight="700" letter-spacing="1.8">03 / TOOLS</text>
+    <text y="39" fill="#F0EDE6" font-size="20" font-weight="700">Python</text>
+    <text y="68" fill="#A6A39C" font-size="12">automation and media systems</text>
+  </g>
+  <g transform="translate(928,30)">
+    <text fill="#FF3045" font-size="11" font-weight="700" letter-spacing="1.8">04 / SHIP</text>
+    <text y="39" fill="#F0EDE6" font-size="20" font-weight="700">GitHub Actions</text>
+    <text y="68" fill="#A6A39C" font-size="12">static-first, reproducible builds</text>
+  </g>
+</g>
+</svg>

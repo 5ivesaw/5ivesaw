@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">FiveSaw — builder of interactive systems</title>
+  <desc id="desc">Swiss-grid inspired technical identity banner with an animated saw blade, the FiveSaw wordmark, and project disciplines.</desc>
+  <defs>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="3" seed="5" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.06"/>
+      </feComponentTransfer>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="440" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="440" fill="#0B0C0E"/>
+    <rect x="22" y="22" width="1156" height="396" rx="4" fill="none" stroke="#2A2D33" stroke-width="1"/>
+
+    <!-- Swiss/technical grid -->
+    <g stroke="#2A2D33" stroke-width="1">
+      <line x1="404" y1="22" x2="404" y2="418"/>
+      <line x1="22" y1="78" x2="1178" y2="78"/>
+      <line x1="22" y1="364" x2="1178" y2="364"/>
+      <line x1="792" y1="78" x2="792" y2="364"/>
+      <line x1="986" y1="78" x2="986" y2="364"/>
+    </g>
+
+    <!-- registration marks -->
+    <g fill="none" stroke="#A6A39C" stroke-width="1" opacity=".72">
+      <path d="M38 58V38H58 M1142 38h20v20 M38 382v20h20 M1162 382v20h-20"/>
+      <circle cx="1152" cy="52" r="7"/>
+      <line x1="1140" y1="52" x2="1164" y2="52"/>
+      <line x1="1152" y1="40" x2="1152" y2="64"/>
+    </g>
+
+    <!-- blade module -->
+    <circle cx="220" cy="220" r="169" fill="#111317" opacity=".55"/>
+    <g>
+      <path d="M 220.00,72.00 L 232.94,88.64 L 248.87,74.84 L 258.32,93.68 L 276.64,83.27 L 282.22,103.59 L 302.22,96.94 L 303.74,117.96 L 324.65,115.35 L 322.04,136.26 L 343.06,137.78 L 336.41,157.78 L 356.73,163.36 L 346.32,181.68 L 365.16,191.13 L 351.36,207.06 L 368.00,220.00 L 351.36,232.94 L 365.16,248.87 L 346.32,258.32 L 356.73,276.64 L 336.41,282.22 L 343.06,302.22 L 322.04,303.74 L 324.65,324.65 L 303.74,322.04 L 302.22,343.06 L 282.22,336.41 L 276.64,356.73 L 258.32,346.32 L 248.87,365.16 L 232.94,351.36 L 220.00,368.00 L 207.06,351.36 L 191.13,365.16 L 181.68,346.32 L 163.36,356.73 L 157.78,336.41 L 137.78,343.06 L 136.26,322.04 L 115.35,324.65 L 117.96,303.74 L 96.94,302.22 L 103.59,282.22 L 83.27,276.64 L 93.68,258.32 L 74.84,248.87 L 88.64,232.94 L 72.00,220.00 L 88.64,207.06 L 74.84,191.13 L 93.68,181.68 L 83.27,163.36 L 103.59,157.78 L 96.94,137.78 L 117.96,136.26 L 115.35,115.35 L 136.26,117.96 L 137.78,96.94 L 157.78,103.59 L 163.36,83.27 L 181.68,93.68 L 191.13,74.84 L 207.06,88.64 Z" fill="none" stroke="#F0EDE6" stroke-width="2.2" opacity=".93">
+        <animateTransform attributeName="transform" type="rotate"
+          from="0 220 220" to="360 220 220" dur="32s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="220" cy="220" r="112" fill="none" stroke="#A6A39C" stroke-width="1" stroke-dasharray="3 7"/>
+      <circle cx="220" cy="220" r="61" fill="#FF3045"/>
+      <circle cx="220" cy="220" r="24" fill="#0B0C0E"/>
+      <path d="M92 264H348" stroke="#FF3045" stroke-width="4"/>
+      <text x="220" y="242" text-anchor="middle" fill="#F0EDE6"
+            font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="900" letter-spacing="-6">05</text>
+    </g>
+
+    <text x="44" y="57" fill="#A6A39C" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11" letter-spacing="2.1">IDENTITY SYSTEM / PROFILE INDEX</text>
+    <text x="368" y="57" text-anchor="end" fill="#FF3045"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11" font-weight="700" letter-spacing="1.6">FS-05</text>
+
+    <!-- wordmark -->
+    <text x="446" y="194" fill="#F0EDE6" font-family="Arial, Helvetica, sans-serif"
+          font-size="122" font-weight="900" letter-spacing="-8">FIVE</text>
+    <text x="443" y="309" fill="#F0EDE6" font-family="Arial, Helvetica, sans-serif"
+          font-size="132" font-weight="900" letter-spacing="-9">SAW</text>
+    <rect x="446" y="323" width="296" height="8" fill="#FF3045"/>
+
+    <!-- discipline columns -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="816" y="111" fill="#FF3045" font-size="11" font-weight="700" letter-spacing="1.8">01 / BUILDS</text>
+      <text x="816" y="148" fill="#F0EDE6" font-size="20" font-weight="700">Browser worlds</text>
+      <text x="816" y="177" fill="#F0EDE6" font-size="20" font-weight="700">Game systems</text>
+      <text x="816" y="206" fill="#F0EDE6" font-size="20" font-weight="700">Agent systems</text>
+
+      <text x="1010" y="111" fill="#FF3045" font-size="11" font-weight="700" letter-spacing="1.8">02 / METHOD</text>
+      <text x="1010" y="148" fill="#F0EDE6" font-size="15">VISIBLE STATE</text>
+      <text x="1010" y="177" fill="#F0EDE6" font-size="15">REAL CONTROLS</text>
+      <text x="1010" y="206" fill="#F0EDE6" font-size="15">STATIC-FIRST</text>
+
+      <text x="816" y="284" fill="#A6A39C" font-size="11" letter-spacing="1.6">THREE.JS / JAVA / C / PYTHON</text>
+      <text x="816" y="313" fill="#A6A39C" font-size="11" letter-spacing="1.6">GAMES / TOOLS / EXPERIMENTS</text>
+    </g>
+
+    <!-- footer ticker -->
+    <rect x="22" y="364" width="1156" height="54" fill="#FF3045"/>
+    <text x="44" y="398" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="15" font-weight="700" letter-spacing="2.3">BUILDING WEIRD THINGS THAT ACTUALLY RUN</text>
+    <text x="1156" y="398" text-anchor="end" fill="#FFFFFF"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="12" letter-spacing="1.4">5IVESAW / GITHUB</text>
+
+    <!-- restrained scan animation -->
+    <rect x="-300" y="78" width="190" height="286" fill="#FF3045" opacity="0">
+      <animate attributeName="x" values="-300;1250" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;.055;.055;0" dur="9s" repeatCount="indefinite"/>
+    </rect>
+
+    <circle cx="1160" cy="52" r="3.2" fill="#FF3045">
+      <animate attributeName="opacity" values="1;.18;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <rect width="1200" height="440" fill="none" filter="url(#grain)" pointer-events="none"/>
+  </g>
+</svg>
