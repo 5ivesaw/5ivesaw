@@ -1,6 +1,8 @@
 <div align="center">
 <img src="./assets/whoami.svg" width="820" alt="FiveSaw identity terminal"/>
 <br/>
+<img src="https://raw.githubusercontent.com/5ivesaw/5ivesaw/output/fivesaw-snake.svg" width="820" alt="FiveSaw contribution snake"/>
+<br/>
 <table width="820" border="1" bordercolor="#3a2626" cellspacing="0" cellpadding="14">
 <tbody>
 <tr>
