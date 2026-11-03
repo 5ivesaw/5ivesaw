@@ -219,7 +219,7 @@ const PANES = {
         <h3 class="tl-h grow">URL encode / decode</h3>
         <div class="seg" role="group" aria-label="Mode"><button type="button" data-m="comp" aria-pressed="true">Component</button><button type="button" data-m="full" aria-pressed="false">Full URL</button></div>
       </div>
-      <label class="stack" style="gap:6px"><span class="lbl">Input</span><textarea class="textarea wrap" id="u-in" style="min-height:110px" spellcheck="false">https://5ivesaw.github.io/5ivesaw/?q=hello world&tag=ñ✦</textarea></label>
+      <label class="stack" style="gap:6px"><span class="lbl">Input</span><textarea class="textarea wrap" id="u-in" style="min-height:110px" spellcheck="false">https://5ivesaw.github.io/?q=hello world&tag=ñ✦</textarea></label>
       <div class="cols">
         <div class="stack" style="gap:6px"><span class="lbl">Encoded</span><div class="out"><textarea class="textarea wrap" id="u-enc" readonly style="min-height:110px"></textarea>${copyBtn('#u-enc')}</div></div>
         <div class="stack" style="gap:6px"><span class="lbl">Decoded</span><div class="out"><textarea class="textarea wrap" id="u-dec" readonly style="min-height:110px"></textarea>${copyBtn('#u-dec')}</div></div>
